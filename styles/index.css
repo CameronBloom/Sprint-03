@@ -1,0 +1,39 @@
+* {
+  color: white;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+div {
+  border-bottom: 1px solid pink;
+  padding: 1px;
+  margin: 1px;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: orange;
+}
+
+h3 {
+  color: yellow;
+}
+
+h4 {
+  color: green;
+}
+
+h5 {
+  color: blue;
+}
+
+h6 {
+  color: purple;
+}
+
+a {
+  color: lightblue;
+}
