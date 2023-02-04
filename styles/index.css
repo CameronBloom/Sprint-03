@@ -47,76 +47,42 @@ table {
 	border-spacing: 0;
 }
 
-/*  
-
-Color Pattern: https://coolors.co/22223b-4a4e69-9a8c98-c9ada7-f2e9e4
-
-*/
-
-
-/* * {
-  color: white;
+.parent {
+  color: red;
   background-color: black;
-  font-family: "Lucida Console", "Courier New", monospace;
-} */
-
-header {
-  height: 6.25rem;
-  margin: 0.0625rem;
-  border: 0.0625rem solid;
-  padding: 0.0625rem;
-  display: block;
+}
+.child {
+  color: blue;
 }
 
-header nav {
-  height: 5.875rem;
-  margin: 0.0625rem;
-  border: 0.0625rem solid;
-  padding: 0.0625rem;
-  display: block;
+.grandchild {
+  color: green;
+}
+.greatgrandchild {
+  color: pink;
+}
+.greatgrandchild2 {
+  color: purple;
 }
 
-header nav div {
-  height: 5.5rem;
-  margin: 0.0625rem;
-  border: 0.0625rem solid;
-  padding: 0.0625rem;
-  display: block;
+.child2 {
+  color: coral;
 }
 
-header nav div a {
-  height: 1rem;
-  margin: 0.0625rem;
-  border: 0.0625rem solid;
-  padding: 0.0625rem;
-  display: block;
+.child2 .grandchild {
+  color: aqua;
 }
 
-.tertiary {
-  margin-top: 0.1250rem;
+.child2 .grandchild .greatgrandchild {
+  color: #BC8F8F;
 }
 
-#home {
-  margin: 0.0625rem;
-  margin-top: 0.1250rem;
-  border: 0.0625rem solid;
-  padding: 0.0625rem;
-  display: block;
+.child2 .grandchild2 {
+  color: 	#A0522D;
 }
 
-#home h1 {
-  margin: 0.0625rem;
-  border: 0.0625rem solid;
-  padding: 0.0625rem;
-  display: block;
-}
-
-#home p {
-  margin: 0.0625rem;
-  margin-top: 0.1250rem;
-  border: 0.0625rem solid;
-  padding: 0.0625rem;
-  display: block;
+.child2 .grandchild2 .greatgrandchild {
+  color: tomato;
 }
 
 footer {
