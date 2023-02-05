@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -47,45 +48,7 @@ table {
 	border-spacing: 0;
 }
 
-.parent {
-  color: red;
-  background-color: black;
-}
-.child {
-  color: blue;
-}
-
-.grandchild {
-  color: green;
-}
-.greatgrandchild {
-  color: pink;
-}
-.greatgrandchild2 {
-  color: purple;
-}
-
-.child2 {
-  color: coral;
-}
-
-.child2 .grandchild {
-  color: aqua;
-}
-
-.child2 .grandchild .greatgrandchild {
-  color: #BC8F8F;
-}
-
-.child2 .grandchild2 {
-  color: 	#A0522D;
-}
-
-.child2 .grandchild2 .greatgrandchild {
-  color: tomato;
-}
-
-footer {
+/* footer {
   background-color: #22223B;
   position: fixed;
   bottom: 0;
@@ -108,4 +71,4 @@ footer a {
 
 footer span {
   width: 0.25rem;
-}
+} */
