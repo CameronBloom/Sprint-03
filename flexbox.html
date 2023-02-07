@@ -1,0 +1,62 @@
+<div class="flex-row">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+  <div class="item">Item 4</div>
+  <div class="item">Item 5</div>
+  <div class="item">Item 6</div>
+  <div class="item">Item 7</div>
+  <div class="item">Item 8</div>
+</div>
+
+<div class="flex-col">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+  <div class="item">Item 4</div>
+  <div class="item">Item 5</div>
+  <div class="item">Item 6</div>
+  <div class="item">Item 7</div>
+  <div class="item">Item 8</div>
+</div>
+
+<style>
+  .flex-row .item {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid black;
+    background: lightcoral;
+    text-align: center;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .flex-col .item {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid black;
+    background: lightyellow;
+    text-align: center;
+  }
+
+  .flex-col {
+    display: flex;
+    flex-flow: column wrap;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+</style>
